@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crystalline Media — Your Voice. Your Story. Your Community.">
+  <title>Crystalline Media | News, Stories & Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Crystalline Media</span>
+      <span>Inform • Connect • Inspire</span>
+    </div>
+  </div>
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <span class="logo-mark">CM</span>
+      <span><strong>CRYSTALLINE</strong><small>MEDIA</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#videos">Videos</a>
+      <a href="#community">Community</a>
+      <a href="#entertainment">Entertainment</a>
+      <a href="#sports">Sports</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge">● LIVE &amp; INDEPENDENT</div>
+        <h1>Your Voice.<br><span>Your Story.</span><br>Your Community.</h1>
+        <p>Crystalline Media brings you timely news, powerful community stories, interviews, entertainment and videos from Uganda and beyond.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#news">Read Latest News</a>
+          <a class="btn ghost" href="#videos">Watch Videos</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-image">CRYSTALLINE<br>MEDIA</div>
+        <div class="hero-card-text">
+          <span class="category">FEATURED</span>
+          <h2>Stories that matter to our communities</h2>
+          <p>Share your story with Crystalline Media.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="breaking">
+    <div class="container breaking-inner">
+      <strong>BREAKING</strong>
+      <div class="ticker" id="ticker">Welcome to Crystalline Media — reliable stories, community voices and meaningful conversations.</div>
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">LATEST</span><h2>Latest News</h2></div>
+        <a href="#contact" class="text-link">Send us a story →</a>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="placeholder news">NEWS</div>
+          <div class="card-body"><span class="category">NEWS</span><h3>Welcome to Crystalline Media</h3><p>Follow us for updates, reports and stories from our communities.</p><span class="date">September 15, 2026</span></div>
+        </article>
+        <article class="card">
+          <div class="placeholder community">COMMUNITY</div>
+          <div class="card-body"><span class="category">COMMUNITY</span><h3>Giving communities a stronger voice</h3><p>We believe local stories deserve attention, context and respect.</p><span class="date">Featured story</span></div>
+        </article>
+        <article class="card">
+          <div class="placeholder interview">INTERVIEW</div>
+          <div class="card-body"><span class="category">INTERVIEW</span><h3>Conversations that inspire</h3><p>Meet people making a difference and hear their stories in their own words.</p><span class="date">Featured</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="videos">
+    <div class="container">
+      <div class="section-head light"><div><span class="eyebrow">WATCH</span><h2>Latest Videos</h2></div></div>
+      <div class="video-grid">
+        <article class="video-card"><div class="play">▶</div><h3>Crystalline Media Updates</h3><p>Video stories and field reports.</p></article>
+        <article class="video-card"><div class="play">▶</div><h3>Community Voices</h3><p>Real people. Real stories.</p></article>
+        <article class="video-card"><div class="play">▶</div><h3>Interviews &amp; Conversations</h3><p>Powerful conversations from our team.</p></article>
+      </div>
+      <p class="note">Replace these video cards with your Facebook or YouTube video links when publishing.</p>
+    </div>
+  </section>
+
+  <section class="section" id="community">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">COMMUNITY</span>
+        <h2>Stories from the people</h2>
+        <p>Crystalline Media is built around people. We cover community developments, events, culture, youth initiatives, education and stories that deserve to be heard.</p>
+        <a class="btn primary" href="#contact">Submit a Story</a>
+      </div>
+      <div class="quote">“A strong community begins when people have a platform to be heard.”</div>
+    </div>
+  </section>
+
+  <section class="section alt" id="entertainment">
+    <div class="container">
+      <span class="eyebrow">ENTERTAINMENT</span><h2>Entertainment &amp; Culture</h2>
+      <div class="mini-grid">
+        <div><h3>Music</h3><p>Artists, releases, performances and music stories.</p></div>
+        <div><h3>Culture</h3><p>Traditions, people, lifestyle and cultural events.</p></div>
+        <div><h3>Events</h3><p>What's happening in your community.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sports">
+    <div class="container">
+      <span class="eyebrow">SPORTS</span><h2>Sports</h2>
+      <div class="sports-banner"><div><h3>Passion. Talent. Competition.</h3><p>Local sports updates, youth football, results and inspiring athletes.</p></div><span>CM</span></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container split">
+      <div><span class="eyebrow">WHO WE ARE</span><h2>About Crystalline Media</h2>
+        <p>Crystalline Media is a growing digital media platform focused on news, community storytelling, interviews, video content, entertainment and public-interest information.</p>
+        <p>Our goal is simple: <strong>inform, connect and inspire.</strong> We aim to tell stories responsibly while creating a platform where communities and their voices matter.</p>
+      </div>
+      <div class="values"><div><b>01</b><span>Truth &amp; responsibility</span></div><div><b>02</b><span>Community first</span></div><div><b>03</b><span>Quality storytelling</span></div></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div><span class="eyebrow">GET IN TOUCH</span><h2>Contact Crystalline Media</h2><p>Have a story, event, interview request or advertising opportunity? Reach out to the team.</p>
+        <div class="contact-lines">
+          <p>📱 <strong>Phone:</strong> Add your official number</p>
+          <p>✉️ <strong>Email:</strong> Add your official email</p>
+          <p>📘 <strong>Facebook:</strong> Crystalline Media</p>
+        </div>
+      </div>
+      <form onsubmit="sendMessage(event)">
+        <input id="name" required placeholder="Your name">
+        <input id="email" type="email" required placeholder="Your email">
+        <textarea id="message" required rows="6" placeholder="Your message or story"></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><div class="brand footer-brand"><span class="logo-mark">CM</span><span><strong>CRYSTALLINE</strong><small>MEDIA</small></span></div><p>Your Voice. Your Story. Your Community.</p></div>
+    <div><h4>Explore</h4><a href="#news">News</a><a href="#videos">Videos</a><a href="#community">Community</a></div>
+    <div><h4>Connect</h4><a href="#contact">Contact</a><a href="#about">About Us</a><a href="#contact">Advertise With Us</a></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Crystalline Media. All rights reserved.</div>
+</footer>
+<script>
+function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+function sendMessage(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value;
+  document.getElementById('form-status').textContent=`Thank you, ${name}. Your message is ready to be connected to the Crystalline Media inbox.`;
+  e.target.reset();
+}
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
